@@ -29,7 +29,6 @@ async function init() {
   const palabraDia = palabras[0][0].toUpperCase() + palabras[0].substr(1);
   const palabraFecha = palabras[1];
   const unir = palabraDia + "," + palabraFecha;
-  document.getElementById('date').innerHTML = unir;
   document.getElementById('title1').innerHTML = result+'°';
   content3.style.display = "block";
 
