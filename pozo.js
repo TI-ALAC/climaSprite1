@@ -25,6 +25,7 @@ async function init() {
   const response = await axios.get(`https://weatherstation.alacoohperu.pe/api/clima/${latitud}/${longitud}`);
   //const response2 = await axios.get(`https://weatherstation.alacoohperu.pe/api/climagrados/${latitud}/${longitud}`);
   const text_clima = response.data.data.weather[0].description;
+  console.log(text_clima)
   const datatemp = response.data.data.main.temp.toFixed(0);
   const result = datatemp.toString();
   const fecha = new Date();
@@ -41,7 +42,7 @@ async function init() {
   } else if (text_clima == 'cielo claro' || text_clima == 'algo de nubes'|| text_clima == 'nubes dispersas') {
     content4.style.display = "block";
     
-  } else if (text_clima == 'lluvia ligera' || text_clima == 'tormenta con lluvia ligera'|| text_clima == 'lluvia moderada') {
+  } else if (text_clima == 'lluvia ligera' || text_clima == 'tormenta con lluvia ligera'|| text_clima == 'lluvia moderada' || text_clima == 'tormenta') {
     content5.style.display = "block";
 
   }else if (text_clima == 'nubes') {
