@@ -70,11 +70,11 @@ img {
 @media only screen and (max-width: 768px) {
 
     #millones {
-        font-size: 95pt !important;
+        font-size: 86pt !important;
         font-family: 'Roboto', sans-serif;
         color: #FFF !important;
-        left: 37%;
-        top: 66%;
+        left: 39%;
+        top: 60%;
         font-style: normal;
         position: absolute;
     }
