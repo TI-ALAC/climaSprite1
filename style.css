@@ -70,26 +70,13 @@ img {
 @media only screen and (max-width: 768px) {
 
     #millones {
-        font-size: 86pt !important;
+        font-size: 78pt !important;
         font-family: 'Roboto', sans-serif;
         color: #FFF !important;
         left: 39%;
-        top: 60%;
+        top: 61%;
         font-style: normal;
         position: absolute;
     }
 
-}
-
-/* 720x360 */
-@media only screen and (max-width: 720px) {
-    #millones {
-        font-size: 85pt !important;
-        font-family: 'Roboto';
-        color: #FFF !important;
-        left: 38%;
-        top: 66%;
-        font-style: normal;
-        position: absolute;
-    }
 }
