@@ -4,28 +4,31 @@
 }
 
 @font-face {
-    font-family: 'Meera Inimai';
-    src: url(fonts/MeeraInimai-Regular.ttf);
+    font-family: 'Roboto';
+    src: url(fonts/Roboto-Bold.ttf);
     font-weight: regular;
 }
 
-#contenido3{
+#contenido3 {
     background-color: black;
 }
 
-#contenido4{
+#contenido4 {
     background-color: black;
 }
 
-#contenido5{
+#contenido5 {
     background-color: black;
 }
-#contenido6{
+
+#contenido6 {
     background-color: black;
 }
-#contenido7{
+
+#contenido7 {
     background-color: black;
 }
+
 img {
     object-fit: fill;
     position: absolute;
@@ -44,7 +47,7 @@ img {
 
 #pozoUnidad {
     font-size: 122pt;
-    font-family: 'Meera Inimai', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #FFF;
     left: 32%;
     top: 30%;
@@ -53,7 +56,7 @@ img {
 
 #millones {
     font-size: 122pt;
-    font-family: 'Meera Inimai', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #FFF;
     left: 15%;
     top: 30%;
@@ -67,11 +70,11 @@ img {
 @media only screen and (max-width: 768px) {
 
     #millones {
-        font-size: 63pt !important;
-        font-family: 'Meera Inimai', sans-serif;
+        font-size: 95pt !important;
+        font-family: 'Roboto', sans-serif;
         color: #FFF !important;
-        left: 67%;
-        top: 50%;
+        left: 37%;
+        top: 66%;
         font-style: normal;
         position: absolute;
     }
@@ -81,13 +84,12 @@ img {
 /* 720x360 */
 @media only screen and (max-width: 720px) {
     #millones {
-        font-size: 63pt !important;
-        font-family: 'Meera Inimai', sans-serif;
+        font-size: 85pt !important;
+        font-family: 'Roboto';
         color: #FFF !important;
-        left: 67%;
-        top: 50%;
+        left: 38%;
+        top: 66%;
         font-style: normal;
         position: absolute;
-
     }
 }
